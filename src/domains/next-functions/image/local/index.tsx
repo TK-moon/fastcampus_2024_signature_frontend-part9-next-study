@@ -7,7 +7,14 @@ const LocalMain: FC = () => {
 
   return (
     <main>
-      <Image src={dog} width={500} placeholder="empty" quality={100} priority />
+      <Image
+        alt=""
+        src={dog}
+        width={500}
+        placeholder="empty"
+        quality={100}
+        priority
+      />
     </main>
   );
 };

@@ -1,16 +1,18 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main>
       <ul>
         <li>
-          <a href="/routing">STATIC</a>
+          <Link href="/routing">STATIC</Link>
         </li>
         <li>
           <a href="/routing/dynamic/1234">DYNAMIC</a>
         </li>
         <li>
-          <a href="/routing/nested/asdf/routing">NESTED</a>
+          <Link href="/routing/nested/asdf/routing">NESTED</Link>
         </li>
         <li>
           <a href="/routing/catch-all-segments/1/2/3/4/5/a/b/c/d/e">
