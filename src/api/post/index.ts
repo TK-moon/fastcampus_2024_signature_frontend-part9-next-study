@@ -22,11 +22,9 @@ export async function fetchPost(id: string): Promise<Post> {
   );
   const data: Post = await result.json();
 
-  return data;
-
-  // return new Promise<Post>((resolve, reject) => {
-  //   // setTimeout(() => {
-  //   resolve(data);
-  //   // }, 5000);
-  // });
+  return new Promise<Post>((resolve, reject) => {
+    setTimeout(() => {
+      resolve(data);
+    }, 5000);
+  });
 }
