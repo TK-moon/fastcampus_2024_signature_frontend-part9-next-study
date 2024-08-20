@@ -28,7 +28,7 @@ interface ExtendsNextApiRequest extends NextApiRequest {
   };
 }
 
-interface CommentResponse {
+export interface CommentResponse {
   comments: Comment[];
 }
 

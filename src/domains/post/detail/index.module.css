@@ -1,0 +1,32 @@
+.container {
+  padding: 16px;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.body {
+  font-size: 24px;
+}
+
+.comment_list {
+  margin-top: 30px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.comment_list li {
+  margin-bottom: 10px;
+}
+
+.email {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.name {
+  font-size: 14px;
+  color: #aaa;
+}
